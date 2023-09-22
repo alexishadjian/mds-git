@@ -87,3 +87,50 @@ body {
     font-size:25px;
     color:#f0f0f0;
   }
+
+  .kolums {
+    height:350px;
+    font-family: 'Lato', sans-serif;
+    color:#d6d6d6;
+    font-size:17px;
+    -moz-column-count: 1;
+    -moz-column-gap: 12px;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 12px;
+    column-count: 1;
+    column-gap: 12px; 
+  }
+  
+  /* navigaatio */
+  
+  a {
+    text-decoration:none;
+  }
+  
+  li {
+    list-style:none;
+    
+  }
+  
+  .navbox {
+    width:1000px;
+    margin:1% auto;
+    text-align:center;
+    
+  }
+  
+  .navi {
+    color:#f0f0f0;
+    font-family:Arvo;
+    word-spacing:0.5em;
+    position:relative;
+    left:-3%;
+    
+  }
+  
+  .navi li {
+    display:inline-block;
+    text-align:center;
+    
+  
+  }
