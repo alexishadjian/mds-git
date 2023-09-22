@@ -101,16 +101,10 @@ body {
 }
 
 .column {
-    height:350px;
+    margin: 40px;
     font-family: 'Lato', sans-serif;
     color:#d6d6d6;
     font-size:17px;
-    -moz-column-count: 1;
-    -moz-column-gap: 12px;
-    -webkit-column-count: 1;
-    -webkit-column-gap: 12px;
-    column-count: 1;
-    column-gap: 12px; 
 }
   
 a {
