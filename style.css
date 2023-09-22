@@ -41,6 +41,18 @@ body {
     margin:0;
     text-align:center;
 }
+
+.title2 {
+    font-family: arvo;
+    font-size: 25px;
+    color: #f0f0f0;
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+    color: #d6d6d6;
+    font-size: 17px;
+}
   
 .top-title {
     font-family: 'Nothing You Could Do', cursive;
