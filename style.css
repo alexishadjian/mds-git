@@ -15,12 +15,12 @@ body {
     background-color:#1E1E20;
 }
   
-.alusta {
+.hero {
     width:500px;
     margin:10% auto;
 }
   
-.varjoitettu {
+.title {
     color:#f0f0f0;
     font-family: Arvo;
     font-weight:bold;
@@ -42,7 +42,7 @@ body {
     text-align:center;
 }
   
-.viivoitus {
+.top-title {
     font-family: 'Nothing You Could Do', cursive;
     color:#d6d6d6;
     text-align:center;
@@ -51,7 +51,7 @@ body {
     margin:0;
 }
   
-.viivoitus:before {
+.top-title:before {
     content:"";
     display: block;
     position: absolute;
@@ -61,34 +61,34 @@ body {
     border-bottom: 2px solid #d6d6d6;
 }
   
-.viivoitus span {
+.top-title span {
     background-color:#1E1E20;
     padding:0 0.2em;
 }
   
-.teksti1 {
+.text1 {
     font-size: 60px;
 }
-.teksti2 {
+.text2 {
     font-size: 169px;
 }
-.teksti3 {
+.text3 {
     font-size: 100px;
 }
   
-.sisältö {
+.container {
     width:650px;
     height:1030px;
     margin:10% auto;
 }
   
-.otsikko {
+.title-who {
     font-family:arvo;
     font-size:25px;
     color:#f0f0f0;
 }
 
-.kolums {
+.column {
     height:350px;
     font-family: 'Lato', sans-serif;
     color:#d6d6d6;
@@ -107,7 +107,6 @@ a {
   
 li {
     list-style:none;
-  
 }
   
 .navbox {
@@ -197,10 +196,4 @@ footer p {
     height:300px;
     opacity:1; 
     visibility:visible; 
-}
-    
-.kartta {
-    position:float;
-    margin-left:50%;
-    margin-right:50%;  
 }
