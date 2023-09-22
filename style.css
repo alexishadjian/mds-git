@@ -6,17 +6,21 @@
 /*font-family: 'Nothing You Could Do', cursive; Ylaalatkesti*/
 @import url(https://fonts.googleapis.com/css?family=Arvo:700);
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height:100%;
     background-color:#1E1E20;
-  }
+}
   
-  .alusta {
+.alusta {
     width:500px;
     margin:10% auto;
-  }
+}
   
-  .varjoitettu {
+.varjoitettu {
     color:#f0f0f0;
     font-family: Arvo;
     font-weight:bold;
@@ -36,18 +40,18 @@ body {
     -moz-transform: scaleY(0.8);
     margin:0;
     text-align:center;
-  }
+}
   
-  .viivoitus {
+.viivoitus {
     font-family: 'Nothing You Could Do', cursive;
     color:#d6d6d6;
     text-align:center;
     font-size:40px;
     position:relative;
     margin:0;
-  }
+}
   
-  .viivoitus:before {
+.viivoitus:before {
     content:"";
     display: block;
     position: absolute;
@@ -55,40 +59,36 @@ body {
     top: 50%;
     width: 100%;
     border-bottom: 2px solid #d6d6d6;
-   
-  }
+}
   
-  .viivoitus span {
+.viivoitus span {
     background-color:#1E1E20;
     padding:0 0.2em;
-  }
+}
   
-  .teksti1 {
+.teksti1 {
     font-size: 60px;
-  }
-  .teksti2 {
+}
+.teksti2 {
     font-size: 169px;
-  }
-  .teksti3 {
+}
+.teksti3 {
     font-size: 100px;
-  }
+}
   
-  /* sisältö */
-  
-  .sisältö {
+.sisältö {
     width:650px;
     height:1030px;
     margin:10% auto;
+}
   
-  }
-  
-  .otsikko {
+.otsikko {
     font-family:arvo;
     font-size:25px;
     color:#f0f0f0;
-  }
+}
 
-  .kolums {
+.kolums {
     height:350px;
     font-family: 'Lato', sans-serif;
     color:#d6d6d6;
@@ -99,43 +99,37 @@ body {
     -webkit-column-gap: 12px;
     column-count: 1;
     column-gap: 12px; 
-  }
+}
   
-  /* navigaatio */
-  
-  a {
+a {
     text-decoration:none;
-  }
+}
   
-  li {
+li {
     list-style:none;
-    
-  }
   
-  .navbox {
+}
+  
+.navbox {
     width:1000px;
     margin:1% auto;
-    text-align:center;
-    
-  }
+    text-align:center; 
+}
   
-  .navi {
+.navi {
     color:#f0f0f0;
     font-family:Arvo;
     word-spacing:0.5em;
     position:relative;
-    left:-3%;
-    
-  }
+    left:-3%; 
+}
   
-  .navi li {
+.navi li {
     display:inline-block;
     text-align:center;
-    
-  
-  }
+}
 
-  .navi a {
+.navi a {
     font-family: 'Lato', sans-serif;
     display:block;
     padding:2em;
@@ -148,76 +142,65 @@ body {
     transition-property:color;
     transition-duration:.2s, 1s;
     transition-timing-function:linear, ease-in;
-  }
+}
   
-  .navi a:hover{
+.navi a:hover{
     color:#DE6141;
-  }
+}
   
-  footer {
+footer {
    width:100%;
    height:20px;
    background-color:#565656;
-  }
+}
   
-  footer p {
+footer p {
     text-align:center;
-    color:#f0f0f0;
+    color:#f0f0f0; 
+}
     
-  }
-  
-  /*GALLERY*/
-  
-  #gallery {
+#gallery {
     position: relative;
     height: 150px;
     width: 800px;
     margin:auto;
     background: #1E1E20;            
-  }
+}
 
-  #gallery ul {
+#gallery ul {
     position:relative;
     top:-40%;
-    /* boksien sijainnin korjaus*/
     margin-left:-60px; 
-  }
+}
                
-  #gallery ul li {
+#gallery ul li {
     list-style:none; 
     display:inline-table; 
     padding:10px;
-  }
+}
                    
-  #gallery ul li .pic{
-  
-  -webkit-transition: all 0.9s ease-in-out;
-  -moz-transition: all 0.9s ease-in-out;
-  -o-transition: all 0.9s ease-in-out;
-  opacity:0;
-  visibility:hidden; 
-  position:absolute; 
-  margin-top:10px; 
-  margin-left:-20px; 
-  border:1px solid black;
-    
-  }
+#gallery ul li .pic{
+    -webkit-transition: all 0.9s ease-in-out;
+    -moz-transition: all 0.9s ease-in-out;
+    -o-transition: all 0.9s ease-in-out;
+    opacity:0;
+    visibility:hidden; 
+    position:absolute; 
+    margin-top:10px; 
+    margin-left:-20px; 
+    border:1px solid black;
+}
   
               
-  #gallery ul li:hover .pic {
-  /* Hoverin säädöt, pitus ja korkeus (paljon aukee) effekti. */
-  width:300px; 
-  height:300px;
-  opacity:1; 
-  visibility:visible; 
-  }
-  
-  /*kartan säädöt*/
-  
-  .kartta {
+#gallery ul li:hover .pic {
+    width:300px; 
+    height:300px;
+    opacity:1; 
+    visibility:visible; 
+}
+    
+.kartta {
     position:float;
     margin-left:50%;
-    margin-right:50%;
-    
-    
-  }
+    margin-right:50%;  
+}
