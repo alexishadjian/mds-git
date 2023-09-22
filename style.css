@@ -5,3 +5,85 @@
 @import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
 /*font-family: 'Nothing You Could Do', cursive; Ylaalatkesti*/
 @import url(https://fonts.googleapis.com/css?family=Arvo:700);
+
+body {
+    height:100%;
+    background-color:#1E1E20;
+  }
+  
+  .alusta {
+    width:500px;
+    margin:10% auto;
+  }
+  
+  .varjoitettu {
+    color:#f0f0f0;
+    font-family: Arvo;
+    font-weight:bold;
+    text-shadow:
+      -2px -4px 0 #222,
+      4px -4px 0 #222,
+      -3px 3px 0 #222,
+      3px 3px 0 #222,
+      2px 4px 0 #f0f0f0,
+      5px 5px 0 #f0f0f0,
+      1px 2px 0 #f0f0f0,
+      7px 7px 0 #f0f0f0;
+    line-height:0.95em;
+    letter-spacing:0.06em;
+    transform:scaleY(0.8);
+    -webkit-transform:scaleY(0.8);
+    -moz-transform: scaleY(0.8);
+    margin:0;
+    text-align:center;
+  }
+  
+  .viivoitus {
+    font-family: 'Nothing You Could Do', cursive;
+    color:#d6d6d6;
+    text-align:center;
+    font-size:40px;
+    position:relative;
+    margin:0;
+  }
+  
+  .viivoitus:before {
+    content:"";
+    display: block;
+    position: absolute;
+    z-index:-1;
+    top: 50%;
+    width: 100%;
+    border-bottom: 2px solid #d6d6d6;
+   
+  }
+  
+  .viivoitus span {
+    background-color:#1E1E20;
+    padding:0 0.2em;
+  }
+  
+  .teksti1 {
+    font-size: 60px;
+  }
+  .teksti2 {
+    font-size: 169px;
+  }
+  .teksti3 {
+    font-size: 100px;
+  }
+  
+  /* sisältö */
+  
+  .sisältö {
+    width:650px;
+    height:1030px;
+    margin:10% auto;
+  
+  }
+  
+  .otsikko {
+    font-family:arvo;
+    font-size:25px;
+    color:#f0f0f0;
+  }
