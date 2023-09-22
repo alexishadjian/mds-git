@@ -172,7 +172,6 @@ footer p {
     
 #gallery {
     position: relative;
-    height: 150px;
     width: 800px;
     margin:auto;
     background: #1E1E20;            
@@ -189,6 +188,11 @@ footer p {
     display:inline-table; 
     padding:10px;
 }
+
+#gallery ul li img {
+    object-fit: cover;
+}
+
                    
 #gallery ul li .pic{
     -webkit-transition: all 0.9s ease-in-out;
