@@ -14,6 +14,16 @@ body {
     height:100%;
     background-color:#1E1E20;
 }
+
+.btn-primary {
+    background-color: #FFFFFF;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: black;
+    text-transform: uppercase;
+    margin: 10px 0;
+    display: inline-block;
+}
   
 .hero {
     width:500px;
